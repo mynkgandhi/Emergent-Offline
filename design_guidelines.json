@@ -1,0 +1,248 @@
+{
+  "project_info": {
+    "title": "Philips Smart Locks Hub by Mindmaze",
+    "client": "Mindmaze - Largest Trade Partner for Philips Smart Locks in Australia",
+    "contact_email": "info@mindmaze.au",
+    "app_type": "Static E-Commerce Catalogue & Trade Hub (GitHub Pages Ready)",
+    "core_narrative": "Premium architectural smart access platform designed for homeowners, builders, and trade professionals. Highlighting hands-free biometric access, seamless multi-method unlocking, and dedicated trade partner support."
+  },
+  "brand_identity": {
+    "positioning": "Largest Trade Partner for Philips Smart Locks in Australia",
+    "value_prop": "Personalized service, bulk trade pricing, and end-to-end expertise for builders, locksmiths, and trade partners, paired with world-class Philips digital access solutions.",
+    "pricing_policy": "No retail prices displayed. All CTAs direct users to 'Request for Trade Pricing' or submit enquiry quotes to info@mindmaze.au."
+  },
+  "typography": {
+    "font_family_display": "Outfit, 'Plus Jakarta Sans', sans-serif",
+    "font_family_body": "'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+    "font_family_mono": "'JetBrains Mono', monospace",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold tracking-normal",
+      "h4_sub": "text-lg font-medium",
+      "body_lead": "text-base sm:text-lg text-slate-300 font-normal leading-relaxed",
+      "body": "text-sm sm:text-base text-slate-400 leading-normal",
+      "caption_label": "text-xs font-semibold uppercase tracking-[0.2em] text-amber-400"
+    },
+    "rules": [
+      "Headings MUST NEVER use generic Inter font. Rotate through Outfit / Plus Jakarta Sans.",
+      "Overlines/labels MUST use uppercase JetBrains Mono with tracking-[0.2em].",
+      "Hero heading max size ceiling is text-6xl (never text-8xl or text-9xl)."
+    ]
+  },
+  "colors": {
+    "archetype": "Architectural Precision & Luxury Performance Security",
+    "theme_mode": "Dark Titanium & Champagne Gold Accent",
+    "palette": {
+      "bg_primary": "#0B0F17",
+      "bg_surface": "#131C2E",
+      "bg_surface_elevated": "#1E293B",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "accent_gold": "#E5C158",
+      "accent_gold_hover": "#F0D175",
+      "accent_gold_glow": "rgba(229, 193, 88, 0.25)",
+      "border_subtle": "rgba(255, 255, 255, 0.08)",
+      "border_highlight": "rgba(229, 193, 88, 0.3)",
+      "status_active": "#10B981",
+      "badge_bg": "rgba(229, 193, 88, 0.12)"
+    },
+    "forbidden_colors": ["#7351B7", "#1B93A4", "pure #000000 without blue/slate tint"],
+    "contrast_rules": "All text must satisfy WCAG AA 4.5:1 ratio. Interactive elements must maintain 3:1 contrast ratio against background."
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Tailwind standard (p-4, p-6, p-8, p-12, p-16, p-24, p-32)",
+    "container_padding": "Internal padding p-6 or p-8 required for all bordered containers to prevent content text collision",
+    "bento_grid_protocol": {
+      "featured_4_products": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 lg:gap-8",
+      "spans": {
+        "ddl902_hero_card": "lg:col-span-7 row-span-2",
+        "ddl801_card": "lg:col-span-5 row-span-1",
+        "ddl720_5hws_card": "lg:col-span-5 row-span-1",
+        "ddl720_mvp_card": "lg:col-span-12"
+      }
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-[#0B0F17]/80 border border-white/10 shadow-2xl",
+    "tracing_beam": "Glowing gold/amber border highlight on hero product spotlight cards",
+    "editorial_marquee": "Slow, elegant scrolling text strip showing 'Largest Trade Partner for Philips Smart Locks • Personal Care for Builders & Trades • Bulk Trade Rates • 3D Face & Palm Recognition'",
+    "hero_animation": "Line-by-line kinetic title reveal + ambient pulsing biometric scanner ring",
+    "smooth_scroll": "Lenis smooth scroll integration for weighted, tactile scrolling feel"
+  },
+  "product_catalogue_specifications": {
+    "catalogue_scope": "Strictly Philips Smart Door Locks and Doorbells ONLY. SAFES, DDL709, and DDL303 ARE EXCLUDED.",
+    "featured_home_products": ["DDL902", "DDL801", "DDL720-5HWS", "DDL720-MVP-17HWS"],
+    "products_data": [
+      {
+        "id": "DDL902",
+        "name": "Philips DDL902-MFVP-11HWS",
+        "category": "Push-Pull Biometric Video Lock",
+        "headline": "3D Face & Palm Recognition Flagship Smart Lock",
+        "colors": ["Obsidian Black", "Champagne Gold"],
+        "color_notes": "Available in both Obsidian Black and Gold variants.",
+        "unlock_methods": [
+          "3D Facial Recognition",
+          "Palm Vein Recognition",
+          "Fingerprint Scan",
+          "PIN Code / Dummy PIN",
+          "Mechanical Key",
+          "RFID Key Tag / Card",
+          "Philips Home Access App / Wi-Fi",
+          "Integrated Video Doorbell & Indoor Screen"
+        ],
+        "key_features": [
+          "More than 6 ways to open the door",
+          "Panoramic triple camera system with 4.7-inch indoor IPS screen",
+          "Automatic hands-free unlock when approaching door with groceries",
+          "Dual verification mode for enhanced high-security environments",
+          "C-level lock cylinder and tamper anti-prying sensor"
+        ],
+        "featured_on_home": true
+      },
+      {
+        "id": "DDL801",
+        "name": "Philips DDL801-5HBS",
+        "category": "Smart Deadbolt Lock",
+        "headline": "Precision Biometric Deadbolt Access for Modern Doors",
+        "colors": ["Titanium Grey"],
+        "unlock_methods": [
+          "Fingerprint Scan",
+          "PIN Code",
+          "RFID Key Card",
+          "Mechanical Backup Key",
+          "Temporary PIN Access",
+          "Philips Home Access App"
+        ],
+        "key_features": [
+          "Automatic deadbolt locking on closure",
+          "Touch-sensor indoor handle release",
+          "Real-time app notifications & unlock logs",
+          "Scratch-resistant tempered glass keypad"
+        ],
+        "featured_on_home": true
+      },
+      {
+        "id": "DDL720-5HWS",
+        "name": "Philips DDL720-5HWS",
+        "category": "Palm Vein Smart Lock",
+        "headline": "Contactless Palm Vein & Wi-Fi Smart Lock",
+        "colors": ["Space Grey"],
+        "color_notes": "ONLY available in Grey. Do not display black model images for 5HWS.",
+        "unlock_methods": [
+          "Palm Vein Recognition",
+          "Fingerprint Scan",
+          "PIN Code",
+          "RFID Key Card",
+          "Mechanical Key",
+          "Philips Home Access App"
+        ],
+        "key_features": [
+          "Near-infrared contactless palm vein recognition",
+          "Built-in Wi-Fi module - no bridge required",
+          "Radar motion sensor for auto-wake",
+          "Multi-proof lock body with anti-theft design"
+        ],
+        "featured_on_home": true
+      },
+      {
+        "id": "DDL720-MVP-17HWS",
+        "name": "Philips DDL720-MVP-17HWS",
+        "category": "Palm Vein & Video Doorbell Smart Lock",
+        "headline": "Palm Vein Biometrics with Integrated Video Monitoring",
+        "colors": ["Space Grey"],
+        "color_notes": "ONLY available in Grey.",
+        "unlock_methods": [
+          "Palm Vein Recognition",
+          "Fingerprint Scan",
+          "PIN Code",
+          "RFID Key Card",
+          "Mechanical Key",
+          "Video Doorbell & 2-Way App Audio",
+          "Indoor 4-inch LCD Screen"
+        ],
+        "key_features": [
+          "Live 1080p video feed to mobile app and indoor screen",
+          "Two-way audio talk with visitors at the door",
+          "PIR human body motion detection & instant alerts",
+          "Contactless palm vein scanner works with wet or dry hands"
+        ],
+        "featured_on_home": true
+      }
+    ],
+    "filters": [
+      "All Locks",
+      "Face Recognition",
+      "Palm Vein",
+      "Fingerprint",
+      "PIN Code",
+      "RFID Key Tag",
+      "Mechanical Key",
+      "App / Wi-Fi",
+      "Built-in Doorbell"
+    ]
+  },
+  "page_structure": {
+    "header": {
+      "components": ["Logo (Philips x Mindmaze SVG)", "Nav Links (Catalogue, Why Philips & Mindmaze, Trade Partners, Contact)", "Quote Cart Drawer Trigger with Badge", "Request Trade Pricing CTA Button"],
+      "sticky_behavior": "fixed z-50 backdrop-blur-xl bg-[#0B0F17]/85 border-b border-white/10"
+    },
+    "hero_section": {
+      "headline": "Hands-Free Security for Modern Living",
+      "subheadline": "Walk in naturally with groceries in both hands. Philips DDL902 3D Face Recognition opens your door effortlessly before you reach the handle.",
+      "visual": "Interactive hero showcasing family entering home with groceries hands-free + close-up spotlight of Philips DDL902 Gold & Obsidian finish with facial scanner radar visual.",
+      "primary_cta": "Explore DDL902 Flagship",
+      "secondary_cta": "Request Trade Pricing"
+    },
+    "home_sections": [
+      "Hero with Family Groceries Hands-Free Story",
+      "Slow Editorial Marquee Banner ('Largest Trade Partner for Philips Smart Locks')",
+      "Featured 4 Products Bento Grid (DDL902, DDL801, DDL720-5HWS, DDL720-MVP-17HWS)",
+      "Why Philips & Why Mindmaze Interactive Comparison & Trade Benefits Section",
+      "Unlock Methods Interactive Showcase (6+ Ways to Open: Face, Palm, Fingerprint, Code, Key Tag, Mechanical Key, App)",
+      "Trade Builder / Installer Contact Banner",
+      "Footer with Quick Links, Trade Support, and Mindmaze Credentials"
+    ],
+    "catalogue_page": {
+      "features": [
+        "Interactive Filter Bar (Face, Palm, Fingerprint, Code, Key Tag, Mechanical Key, App, Doorbell)",
+        "Search input with instant filtering",
+        "Product Card with list of ALL unlock method badges, color choices, and 'Add to Quote' / 'View Details' action",
+        "Detailed Product Modal / Drawer with high-res photos, specifications matrix, and color variant selector"
+      ]
+    },
+    "quote_cart_and_enquiry": {
+      "modal_title": "Trade & Wholesale Price Request",
+      "fields": ["Name", "Company / Business Name", "Email (info@mindmaze.au target)", "Phone", "Role (Builder, Electrician, Locksmith, Homeowner, Architect)", "Selected Products & Quantities", "Project Notes"],
+      "action": "Triggers pre-filled mailto: link to info@mindmaze.au and displays confirmation toast via Sonner."
+    }
+  },
+  "media": {
+    "hero_family_groceries": "https://images.unsplash.com/photo-1581712571996-a13e0fbb31e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjB3YWxraW5nJTIwaG9tZSUyMGhvbGRpbmclMjBncm9jZXJpZXMlMjBlbnRyYW5jZSUyMGRvb3J8ZW58MHx8fHwxNzk0MzEwOTgyfDA&ixlib=rb-4.1.0&q=85",
+    "modern_door_entrance": "https://images.unsplash.com/photo-1759355787286-f1c5fd456a0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHw0fHxzbWFydCUyMGRvb3IlMjBsb2NrJTIwbW9kZXJuJTIwaG9tZSUyMGVudHJhbmNlfGVufDB8fHx8MTc5NDMxMDk4Mnww&ixlib=rb-4.1.0&q=85",
+    "wooden_door_interior": "https://images.unsplash.com/photo-1759262151165-3330c14fd982?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwyfHxzbWFydCUyMGRvb3IlMjBsb2NrJTIwbW9kZXJuJTIwaG9tZSUyMGVudHJhbmNlfGVufDB8fHx8MTc5NDMxMDk4Mnww&ixlib=rb-4.1.0&q=85",
+    "trade_builder_architecture": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "testing_and_accessibility": {
+    "data_testid_convention": "kebab-case, role-based, e.g., data-testid='nav-quote-cart-button', data-testid='product-filter-face', data-testid='request-trade-pricing-button', data-testid='enquiry-form-submit-button'",
+    "accessibility_rules": [
+      "All images must have meaningful alt descriptions",
+      "Buttons must have discernible text or aria-label",
+      "Modals must trap focus and respond to Escape key"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a pure React JS frontend application with Tailwind CSS and Framer Motion.",
+    "Ensure the app is fully static and client-side ready for GitHub Pages hosting.",
+    "Do NOT show any retail prices anywhere. Replace price tags with 'Request for Price' or 'Contact for Trade Pricing'.",
+    "Include a functional Quote / Enquiry Cart state allowing visitors to add locks (DDL902, DDL801, DDL720-5HWS, DDL720-MVP-17HWS) and generate a pre-filled email enquiry to info@mindmaze.au.",
+    "Highlight Mindmaze prominently as the 'Largest Trade Partner for Philips Smart Locks in Australia' with dedicated messaging for builders and trades.",
+    "Strictly follow unlock method listings: DDL902 must feature 3D Face, Palm, Fingerprint, PIN, Key Tag, Mechanical Key, App, and Video Doorbell.",
+    "Ensure DDL720-5HWS and DDL720-MVP-17HWS are clearly represented in Grey finish only."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "anti_ai_slop": "Avoid standard white/light grey templates. Use dark obsidian surfaces with soft amber/gold glows, high contrast, rich typography, and smooth micro-interactions.",
+    "testing_ids": "Every interactive button, link, tab, filter, and input MUST contain data-testid attributes.",
+    "transitions": "Never use transition: all globally. Specify transition-colors or transition-transform for interactive elements."
+  }
+}
