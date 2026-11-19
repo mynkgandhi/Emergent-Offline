@@ -1,6 +1,6 @@
 # Philips Smart Locks Hub — by Mindmaze
 
-Static React catalogue of Philips smart door locks and the Philips video doorbell. No prices are listed; every enquiry opens a pre-filled email to **info@mindmaze.au**.
+Static React catalogue of Philips smart door locks and the Philips video doorbell. No prices are listed; every enquiry opens a pre-filled email to **info@philipslocks.com.au**.
 
 ## Hosting on GitHub Pages
 1. Push this repo to GitHub (public), branch `main`.
