@@ -450,4 +450,4 @@ export const PRODUCTS = [
 
 export const FEATURED = ["ddl902", "ddl801", "ddl720-5hws", "ddl720-mvp-17hws"].map((s) => PRODUCTS.find((p) => p.slug === s));
 export const getProduct = (slug) => PRODUCTS.find((p) => p.slug === slug);
-export const CONTACT_EMAIL = "info@phillipslocks.com.au";
+export const CONTACT_EMAIL = "info@philipslocks.com.au";
